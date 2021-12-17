@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Source+Code+Pro&display=swap');
+
+body{
+    margin: 0px;
+}
+
+#content, .header-cont, .body-cont{
+    display: flex;
+    box-sizing: border-box;
+    height: 120vh;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#content{
+    background-color: rgb(255, 216, 157);
+}
+
+.header-cont{
+    height: 30vh;
+    width: 95vw;
+    box-shadow: 0px 4px 5px 3px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+
+.page-title{
+    font-family: 'Corinthia', cursive;
+    font-size: 80px;
+}
+
+.button-cont{
+    display: flex;
+    gap: 50px;
+}
+
+button{
+    background: rgba(245,242,225,255);
+    border:none;
+    font-weight: 900;
+    color: black;
+    transition: 0.2s;
+    cursor: pointer;
+    /* border-top: 1px solid black; */
+    box-shadow: 2px -2px 2px 0.1px rgba(0,0,0,0.5);
+    margin-top: 90px;
+    font-size: 20px;
+    border-radius: 2px;
+
+}
+
+button:active{
+    box-shadow: none;
+    transform: translateY(1px);
+    
+    
+}
+
+.unclicked-but{
+    background-color: rgb(212, 216, 193);
+}
+
+.body-cont{
+    height: 75vh;
+    width: 70vw;
+    box-shadow: 2px 7px 5px 3px rgba(0,0,0,0.5);
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.customer-card{
+    display: flex;
+    height: 50vh;
+    width: 22vw;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    align-items: center;
+    gap: 25px;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+.customer-text{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.customer-image{
+    width: 370px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.5);
+}
+
+ul{
+    list-style-type: symbols() ;
+    font-size: 40px;
+    
+}
